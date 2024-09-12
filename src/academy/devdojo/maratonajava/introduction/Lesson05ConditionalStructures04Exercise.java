@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.introduction;
 
-public class Lesson05ConditionalStructuresExercise {
+public class Lesson05ConditionalStructures04Exercise {
     public static void main(String[] args) {
         // 0 | 34,712 | 9.70%
         // 34,713 | 68,507 | 37.35%
@@ -11,7 +11,7 @@ public class Lesson05ConditionalStructuresExercise {
         double second = 37.35 / 100;
         double third = 49.50 / 100;
         double taxValue;
-        if(annualSalary <= 34712) {
+        if (annualSalary <= 34712) {
             taxValue = annualSalary = annualSalary * first;
         } else if (annualSalary >= 34713 && annualSalary <= 68507) {
             taxValue = annualSalary *= second;

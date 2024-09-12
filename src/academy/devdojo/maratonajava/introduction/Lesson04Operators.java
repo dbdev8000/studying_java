@@ -5,7 +5,7 @@ public class Lesson04Operators {
         // + - / *
         int number01 = 10;
         int number02 = 20;
-        double result = number01 / (double)number02;
+        double result = number01 / (double) number02;
         System.out.println("value: " + result);
 
         // %
@@ -32,7 +32,7 @@ public class Lesson04Operators {
         boolean isWithinTheLawGreaterThanThirty = age > 30 && salary > 4612;
         boolean isWithinTheLawLessThanThirty = age < 30 && salary >= 3381;
 
-        System.out.println("isWithinTheLawGreaterThanThirty: "  + isWithinTheLawGreaterThanThirty);
+        System.out.println("isWithinTheLawGreaterThanThirty: " + isWithinTheLawGreaterThanThirty);
         System.out.println("isWithinTheLawLessThanThirty: " + isWithinTheLawLessThanThirty);
 
         double totalValueChekingAccount = 200;

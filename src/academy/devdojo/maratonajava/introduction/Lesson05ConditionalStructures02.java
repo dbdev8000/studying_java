@@ -1,7 +1,7 @@
 package academy.devdojo.maratonajava.introduction;
 
 public class Lesson05ConditionalStructures02 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         int age = 16;
         String category;

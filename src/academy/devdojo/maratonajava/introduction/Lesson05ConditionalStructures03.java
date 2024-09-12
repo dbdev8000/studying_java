@@ -10,8 +10,6 @@ public class Lesson05ConditionalStructures03 {
 
         System.out.println(result);
 
-        
-
 
     }
 }

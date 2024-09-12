@@ -7,7 +7,7 @@ public class Lesson05ConditionalStructures01 {
         //!
         if (isAutorizedBuyAlcoholicDrink != false) {
             System.out.println("Authorized to buy alcoholic drinks");
-        }else {
+        } else {
             System.out.println("Not authorized to purchase alcoholic beverages");
         }
 

@@ -1,4 +1,5 @@
 package academy.devdojo.maratonajava.introduction;
+
 /*
 Pratice
 
@@ -14,9 +15,9 @@ public class Lesson03PrimitiveTypesExercise {
         double salary = 1999.99;
         String date = "25 of April";
 
-        System.out.println("I " +name+ ", living at the address " +address);
-        System.out.println("I confirm that I received the salary of " +salary+
-                ", on the date " +date);
+        System.out.println("I " + name + ", living at the address " + address);
+        System.out.println("I confirm that I received the salary of " + salary +
+                ", on the date " + date);
 
     }
 }
