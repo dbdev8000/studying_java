@@ -2,9 +2,11 @@ package academy.devdojo.maratonajava.javacore.Bintroductionmethods.test;
 
 import academy.devdojo.maratonajava.javacore.Bintroductionmethods.domain.Calculator;
 
-public class CalculatorTest02 {
-    public static void main(String[] args) {
+public class CalculatorTest05 {
+    public static void main(String... args) {
         Calculator calculator = new Calculator();
-        calculator.multiplyTwoNumbers(20, 30);
+        int[] numbers = {1, 2, 3, 4, 5};
+        calculator.sumArray(numbers);
+        calculator.sumVarArgs(numbers);
     }
 }
